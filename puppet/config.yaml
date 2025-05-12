@@ -1,6 +1,6 @@
 name: "Puppet"
 description: "Turn dashboards into nice pictures"
-version: "1.18.0"
+version: "1.18.1"
 slug: "puppet"
 homeassistant_api: true
 init: false
@@ -11,5 +11,7 @@ ports:
   10000/tcp: 10000
 options:
   access_token: ""
+  home_assistant_url: "http://homeassistant:8123"
 schema:
   access_token: str
+  home_assistant_url: str
